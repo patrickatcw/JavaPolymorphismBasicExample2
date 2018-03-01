@@ -34,6 +34,15 @@ class Car {
 
     }
 
+    //step 5, create getters for cylinders and name
+    public int getCylinders() {
+        return cylinders;
+    }
+
+    public String getName() {
+        return name;
+    }
+
 }
 
 
