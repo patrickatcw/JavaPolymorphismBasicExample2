@@ -43,6 +43,23 @@ class Car {
         return name;
     }
 
+    //step 6 create method more starting engine
+    public String startEngine(){
+        return "Car -> startEngine()";
+
+    }
+
+    //step 7 create method for accelerating
+    public String accelerate(){
+        return "Car -> accelerate()";
+
+    }
+
+    //step 8 create method for stopping
+    public String brake(){
+        return "Car -> brake()";
+    }
+
 }
 
 
