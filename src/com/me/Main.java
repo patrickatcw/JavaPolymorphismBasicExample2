@@ -59,8 +59,21 @@ class Car {
     public String brake(){
         return "Car -> brake()";
     }
+//everything above is within base car class
+}
+
+//now create sub-classes to car base class
+//step 9 sub-classes now
+class Chevy extends Car {
+
+    //no creation of fields
+    //step 10 create constructor
+    public Chevy(int cylinders, String name) {
+        super(cylinders, name);
+    }
 
 }
+
 
 
 public class Main {
